@@ -9,8 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                Text("Hello, world!")
+                    .padding()
+                
+                NavigationLink(destination: NetverifyView(onComplete: self.onComplete).navigationBarHidden(true)) {
+                    VStack {
+                        Text("Validate")
+                            .foregroundColor(.white)
+                        
+                    }
+                    .padding()
+                    .frame(width: 200, height: 60)
+                    .background(Color.blue)
+                }
+            }
+        }
+    }
+    
+    func onComplete(_ status: NetverifyStatus) {
+        print("Status \(status)")
     }
 }
 

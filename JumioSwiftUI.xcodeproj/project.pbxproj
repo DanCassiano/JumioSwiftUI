@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		2BCD2B0125EE90F90076B910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD2B0025EE90F90076B910 /* Preview Assets.xcassets */; };
 		2BCD2B0C25EE90F90076B910 /* JumioSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B0B25EE90F90076B910 /* JumioSwiftUITests.swift */; };
 		2BCD2B1725EE90F90076B910 /* JumioSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B1625EE90F90076B910 /* JumioSwiftUIUITests.swift */; };
+		2BCD2B2825EE91360076B910 /* JumioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B2725EE91360076B910 /* JumioManager.swift */; };
+		2BCD2B3B25EE92440076B910 /* NetverifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B3A25EE92440076B910 /* NetverifyView.swift */; };
+		2BCD2B4725EE949A0076B910 /* Localizable-Netverify.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD2B4925EE949A0076B910 /* Localizable-Netverify.strings */; };
+		61E862F47CE1C8AC698DEEDE /* Pods_JumioSwiftUI_JumioSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97817FB0BF47796B86FDC40 /* Pods_JumioSwiftUI_JumioSwiftUIUITests.framework */; };
+		B093FAB66B2A0D3163DB8958 /* Pods_JumioSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD807FC0D86C958DC779853D /* Pods_JumioSwiftUI.framework */; };
+		DBD177F3E6E5787A463C93A0 /* Pods_JumioSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027861D577CE1E201A2AA2FB /* Pods_JumioSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		027861D577CE1E201A2AA2FB /* Pods_JumioSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumioSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCD2AF625EE90F60076B910 /* JumioSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumioSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCD2AF925EE90F60076B910 /* JumioSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumioSwiftUIApp.swift; sourceTree = "<group>"; };
 		2BCD2AFB25EE90F60076B910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,17 @@
 		2BCD2B1225EE90F90076B910 /* JumioSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumioSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCD2B1625EE90F90076B910 /* JumioSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumioSwiftUIUITests.swift; sourceTree = "<group>"; };
 		2BCD2B1825EE90F90076B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCD2B2725EE91360076B910 /* JumioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumioManager.swift; sourceTree = "<group>"; };
+		2BCD2B3A25EE92440076B910 /* NetverifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetverifyView.swift; sourceTree = "<group>"; };
+		2BCD2B4825EE949A0076B910 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Localizable-Netverify.strings"; sourceTree = "<group>"; };
+		76418EFFC3EFDE001861518C /* Pods-JumioSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumioSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-JumioSwiftUI/Pods-JumioSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		98F04C9590F5C5C7FCE3413F /* Pods-JumioSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumioSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-JumioSwiftUITests/Pods-JumioSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A97817FB0BF47796B86FDC40 /* Pods_JumioSwiftUI_JumioSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumioSwiftUI_JumioSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6281510698F0EA1B5860DDE /* Pods-JumioSwiftUI-JumioSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumioSwiftUI-JumioSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-JumioSwiftUI-JumioSwiftUIUITests/Pods-JumioSwiftUI-JumioSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC43EA06605F179023488B7 /* Pods-JumioSwiftUI-JumioSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumioSwiftUI-JumioSwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-JumioSwiftUI-JumioSwiftUIUITests/Pods-JumioSwiftUI-JumioSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5FBAE1843537DD2222017B8 /* Pods-JumioSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumioSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-JumioSwiftUI/Pods-JumioSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		EE76F97F12E0C9FC83A00BE3 /* Pods-JumioSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumioSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-JumioSwiftUITests/Pods-JumioSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD807FC0D86C958DC779853D /* Pods_JumioSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumioSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B093FAB66B2A0D3163DB8958 /* Pods_JumioSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD177F3E6E5787A463C93A0 /* Pods_JumioSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E862F47CE1C8AC698DEEDE /* Pods_JumioSwiftUI_JumioSwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117C25410C033879FB83C838 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FBAE1843537DD2222017B8 /* Pods-JumioSwiftUI.debug.xcconfig */,
+				76418EFFC3EFDE001861518C /* Pods-JumioSwiftUI.release.xcconfig */,
+				B6281510698F0EA1B5860DDE /* Pods-JumioSwiftUI-JumioSwiftUIUITests.debug.xcconfig */,
+				CBC43EA06605F179023488B7 /* Pods-JumioSwiftUI-JumioSwiftUIUITests.release.xcconfig */,
+				98F04C9590F5C5C7FCE3413F /* Pods-JumioSwiftUITests.debug.xcconfig */,
+				EE76F97F12E0C9FC83A00BE3 /* Pods-JumioSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2BCD2AED25EE90F60076B910 = {
 			isa = PBXGroup;
 			children = (
+				2BCD2B4925EE949A0076B910 /* Localizable-Netverify.strings */,
 				2BCD2AF825EE90F60076B910 /* JumioSwiftUI */,
 				2BCD2B0A25EE90F90076B910 /* JumioSwiftUITests */,
 				2BCD2B1525EE90F90076B910 /* JumioSwiftUIUITests */,
 				2BCD2AF725EE90F60076B910 /* Products */,
+				117C25410C033879FB83C838 /* Pods */,
+				7A6DA07189E5BC2620272FEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +137,8 @@
 				2BCD2AFD25EE90F90076B910 /* Assets.xcassets */,
 				2BCD2B0225EE90F90076B910 /* Info.plist */,
 				2BCD2AFF25EE90F90076B910 /* Preview Content */,
+				2BCD2B2725EE91360076B910 /* JumioManager.swift */,
+				2BCD2B3A25EE92440076B910 /* NetverifyView.swift */,
 			);
 			path = JumioSwiftUI;
 			sourceTree = "<group>";
@@ -130,6 +169,16 @@
 			path = JumioSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		7A6DA07189E5BC2620272FEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD807FC0D86C958DC779853D /* Pods_JumioSwiftUI.framework */,
+				A97817FB0BF47796B86FDC40 /* Pods_JumioSwiftUI_JumioSwiftUIUITests.framework */,
+				027861D577CE1E201A2AA2FB /* Pods_JumioSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BCD2B1B25EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUI" */;
 			buildPhases = (
+				266B9A9637382837DA761001 /* [CP] Check Pods Manifest.lock */,
 				2BCD2AF225EE90F60076B910 /* Sources */,
 				2BCD2AF325EE90F60076B910 /* Frameworks */,
 				2BCD2AF425EE90F60076B910 /* Resources */,
+				F1CBF093AA49650BBFB737E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BCD2B1E25EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUITests" */;
 			buildPhases = (
+				ACAF0FF0BA073D87046295D3 /* [CP] Check Pods Manifest.lock */,
 				2BCD2B0325EE90F90076B910 /* Sources */,
 				2BCD2B0425EE90F90076B910 /* Frameworks */,
 				2BCD2B0525EE90F90076B910 /* Resources */,
@@ -172,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BCD2B2125EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUIUITests" */;
 			buildPhases = (
+				AB36531C7634F6E4D2F5EB08 /* [CP] Check Pods Manifest.lock */,
 				2BCD2B0E25EE90F90076B910 /* Sources */,
 				2BCD2B0F25EE90F90076B910 /* Frameworks */,
 				2BCD2B1025EE90F90076B910 /* Resources */,
+				F0C3E2B3F33A0D45FD4BDADD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BCD2B0125EE90F90076B910 /* Preview Assets.xcassets in Resources */,
+				2BCD2B4725EE949A0076B910 /* Localizable-Netverify.strings in Resources */,
 				2BCD2AFE25EE90F90076B910 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +309,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		266B9A9637382837DA761001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumioSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB36531C7634F6E4D2F5EB08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumioSwiftUI-JumioSwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAF0FF0BA073D87046295D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumioSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C3E2B3F33A0D45FD4BDADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumioSwiftUI-JumioSwiftUIUITests/Pods-JumioSwiftUI-JumioSwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumioSwiftUI-JumioSwiftUIUITests/Pods-JumioSwiftUI-JumioSwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JumioSwiftUI-JumioSwiftUIUITests/Pods-JumioSwiftUI-JumioSwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CBF093AA49650BBFB737E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumioSwiftUI/Pods-JumioSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumioSwiftUI/Pods-JumioSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JumioSwiftUI/Pods-JumioSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BCD2AF225EE90F60076B910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2BCD2AFC25EE90F60076B910 /* ContentView.swift in Sources */,
+				2BCD2B3B25EE92440076B910 /* NetverifyView.swift in Sources */,
+				2BCD2B2825EE91360076B910 /* JumioManager.swift in Sources */,
 				2BCD2AFA25EE90F60076B910 /* JumioSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +454,17 @@
 			targetProxy = 2BCD2B1325EE90F90076B910 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BCD2B4925EE949A0076B910 /* Localizable-Netverify.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCD2B4825EE949A0076B910 /* en */,
+			);
+			name = "Localizable-Netverify.strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2BCD2B1925EE90F90076B910 /* Debug */ = {
@@ -414,6 +585,7 @@
 		};
 		2BCD2B1C25EE90F90076B910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FBAE1843537DD2222017B8 /* Pods-JumioSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +608,7 @@
 		};
 		2BCD2B1D25EE90F90076B910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76418EFFC3EFDE001861518C /* Pods-JumioSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +631,7 @@
 		};
 		2BCD2B1F25EE90F90076B910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F04C9590F5C5C7FCE3413F /* Pods-JumioSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +654,7 @@
 		};
 		2BCD2B2025EE90F90076B910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE76F97F12E0C9FC83A00BE3 /* Pods-JumioSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +677,7 @@
 		};
 		2BCD2B2225EE90F90076B910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6281510698F0EA1B5860DDE /* Pods-JumioSwiftUI-JumioSwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +698,7 @@
 		};
 		2BCD2B2325EE90F90076B910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC43EA06605F179023488B7 /* Pods-JumioSwiftUI-JumioSwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
