@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BCD2AFA25EE90F60076B910 /* JumioSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2AF925EE90F60076B910 /* JumioSwiftUIApp.swift */; };
+		2BCD2AFC25EE90F60076B910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2AFB25EE90F60076B910 /* ContentView.swift */; };
+		2BCD2AFE25EE90F90076B910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD2AFD25EE90F90076B910 /* Assets.xcassets */; };
+		2BCD2B0125EE90F90076B910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD2B0025EE90F90076B910 /* Preview Assets.xcassets */; };
+		2BCD2B0C25EE90F90076B910 /* JumioSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B0B25EE90F90076B910 /* JumioSwiftUITests.swift */; };
+		2BCD2B1725EE90F90076B910 /* JumioSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B1625EE90F90076B910 /* JumioSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BCD2B0825EE90F90076B910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCD2AEE25EE90F60076B910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCD2AF525EE90F60076B910;
+			remoteInfo = JumioSwiftUI;
+		};
+		2BCD2B1325EE90F90076B910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCD2AEE25EE90F60076B910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCD2AF525EE90F60076B910;
+			remoteInfo = JumioSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BCD2AF625EE90F60076B910 /* JumioSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumioSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCD2AF925EE90F60076B910 /* JumioSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumioSwiftUIApp.swift; sourceTree = "<group>"; };
+		2BCD2AFB25EE90F60076B910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BCD2AFD25EE90F90076B910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BCD2B0025EE90F90076B910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BCD2B0225EE90F90076B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCD2B0725EE90F90076B910 /* JumioSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumioSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCD2B0B25EE90F90076B910 /* JumioSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumioSwiftUITests.swift; sourceTree = "<group>"; };
+		2BCD2B0D25EE90F90076B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCD2B1225EE90F90076B910 /* JumioSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumioSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCD2B1625EE90F90076B910 /* JumioSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumioSwiftUIUITests.swift; sourceTree = "<group>"; };
+		2BCD2B1825EE90F90076B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCD2AF325EE90F60076B910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD2B0425EE90F90076B910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD2B0F25EE90F90076B910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BCD2AED25EE90F60076B910 = {
+			isa = PBXGroup;
+			children = (
+				2BCD2AF825EE90F60076B910 /* JumioSwiftUI */,
+				2BCD2B0A25EE90F90076B910 /* JumioSwiftUITests */,
+				2BCD2B1525EE90F90076B910 /* JumioSwiftUIUITests */,
+				2BCD2AF725EE90F60076B910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCD2AF725EE90F60076B910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCD2AF625EE90F60076B910 /* JumioSwiftUI.app */,
+				2BCD2B0725EE90F90076B910 /* JumioSwiftUITests.xctest */,
+				2BCD2B1225EE90F90076B910 /* JumioSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCD2AF825EE90F60076B910 /* JumioSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2BCD2AF925EE90F60076B910 /* JumioSwiftUIApp.swift */,
+				2BCD2AFB25EE90F60076B910 /* ContentView.swift */,
+				2BCD2AFD25EE90F90076B910 /* Assets.xcassets */,
+				2BCD2B0225EE90F90076B910 /* Info.plist */,
+				2BCD2AFF25EE90F90076B910 /* Preview Content */,
+			);
+			path = JumioSwiftUI;
+			sourceTree = "<group>";
+		};
+		2BCD2AFF25EE90F90076B910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BCD2B0025EE90F90076B910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BCD2B0A25EE90F90076B910 /* JumioSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCD2B0B25EE90F90076B910 /* JumioSwiftUITests.swift */,
+				2BCD2B0D25EE90F90076B910 /* Info.plist */,
+			);
+			path = JumioSwiftUITests;
+			sourceTree = "<group>";
+		};
+		2BCD2B1525EE90F90076B910 /* JumioSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCD2B1625EE90F90076B910 /* JumioSwiftUIUITests.swift */,
+				2BCD2B1825EE90F90076B910 /* Info.plist */,
+			);
+			path = JumioSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCD2AF525EE90F60076B910 /* JumioSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCD2B1B25EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUI" */;
+			buildPhases = (
+				2BCD2AF225EE90F60076B910 /* Sources */,
+				2BCD2AF325EE90F60076B910 /* Frameworks */,
+				2BCD2AF425EE90F60076B910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumioSwiftUI;
+			productName = JumioSwiftUI;
+			productReference = 2BCD2AF625EE90F60076B910 /* JumioSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BCD2B0625EE90F90076B910 /* JumioSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCD2B1E25EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUITests" */;
+			buildPhases = (
+				2BCD2B0325EE90F90076B910 /* Sources */,
+				2BCD2B0425EE90F90076B910 /* Frameworks */,
+				2BCD2B0525EE90F90076B910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCD2B0925EE90F90076B910 /* PBXTargetDependency */,
+			);
+			name = JumioSwiftUITests;
+			productName = JumioSwiftUITests;
+			productReference = 2BCD2B0725EE90F90076B910 /* JumioSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BCD2B1125EE90F90076B910 /* JumioSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCD2B2125EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUIUITests" */;
+			buildPhases = (
+				2BCD2B0E25EE90F90076B910 /* Sources */,
+				2BCD2B0F25EE90F90076B910 /* Frameworks */,
+				2BCD2B1025EE90F90076B910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCD2B1425EE90F90076B910 /* PBXTargetDependency */,
+			);
+			name = JumioSwiftUIUITests;
+			productName = JumioSwiftUIUITests;
+			productReference = 2BCD2B1225EE90F90076B910 /* JumioSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCD2AEE25EE90F60076B910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2BCD2AF525EE90F60076B910 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2BCD2B0625EE90F90076B910 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2BCD2AF525EE90F60076B910;
+					};
+					2BCD2B1125EE90F90076B910 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2BCD2AF525EE90F60076B910;
+					};
+				};
+			};
+			buildConfigurationList = 2BCD2AF125EE90F60076B910 /* Build configuration list for PBXProject "JumioSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BCD2AED25EE90F60076B910;
+			productRefGroup = 2BCD2AF725EE90F60076B910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCD2AF525EE90F60076B910 /* JumioSwiftUI */,
+				2BCD2B0625EE90F90076B910 /* JumioSwiftUITests */,
+				2BCD2B1125EE90F90076B910 /* JumioSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCD2AF425EE90F60076B910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCD2B0125EE90F90076B910 /* Preview Assets.xcassets in Resources */,
+				2BCD2AFE25EE90F90076B910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD2B0525EE90F90076B910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD2B1025EE90F90076B910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCD2AF225EE90F60076B910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCD2AFC25EE90F60076B910 /* ContentView.swift in Sources */,
+				2BCD2AFA25EE90F60076B910 /* JumioSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD2B0325EE90F90076B910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCD2B0C25EE90F90076B910 /* JumioSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCD2B0E25EE90F90076B910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCD2B1725EE90F90076B910 /* JumioSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BCD2B0925EE90F90076B910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCD2AF525EE90F60076B910 /* JumioSwiftUI */;
+			targetProxy = 2BCD2B0825EE90F90076B910 /* PBXContainerItemProxy */;
+		};
+		2BCD2B1425EE90F90076B910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCD2AF525EE90F60076B910 /* JumioSwiftUI */;
+			targetProxy = 2BCD2B1325EE90F90076B910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BCD2B1925EE90F90076B910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BCD2B1A25EE90F90076B910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCD2B1C25EE90F90076B910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JumioSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JumioSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jumio.swiftui.test.JumioSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BCD2B1D25EE90F90076B910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JumioSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JumioSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jumio.swiftui.test.JumioSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BCD2B1F25EE90F90076B910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = JumioSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jumio.swiftui.test.JumioSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumioSwiftUI.app/JumioSwiftUI";
+			};
+			name = Debug;
+		};
+		2BCD2B2025EE90F90076B910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = JumioSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jumio.swiftui.test.JumioSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumioSwiftUI.app/JumioSwiftUI";
+			};
+			name = Release;
+		};
+		2BCD2B2225EE90F90076B910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = JumioSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jumio.swiftui.test.JumioSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumioSwiftUI;
+			};
+			name = Debug;
+		};
+		2BCD2B2325EE90F90076B910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXFJ8P7722;
+				INFOPLIST_FILE = JumioSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jumio.swiftui.test.JumioSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumioSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCD2AF125EE90F60076B910 /* Build configuration list for PBXProject "JumioSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCD2B1925EE90F90076B910 /* Debug */,
+				2BCD2B1A25EE90F90076B910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCD2B1B25EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCD2B1C25EE90F90076B910 /* Debug */,
+				2BCD2B1D25EE90F90076B910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCD2B1E25EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCD2B1F25EE90F90076B910 /* Debug */,
+				2BCD2B2025EE90F90076B910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCD2B2125EE90F90076B910 /* Build configuration list for PBXNativeTarget "JumioSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCD2B2225EE90F90076B910 /* Debug */,
+				2BCD2B2325EE90F90076B910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCD2AEE25EE90F60076B910 /* Project object */;
+}
